@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendario</title>
+	<meta charset="UTF-8">
+	<script src="JS/scripts.js"></script>
+	<link href="CSS/estilo.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload="star()" class ="body">
+
+		<div class="cabecalho">
+				<tr>
+					<img src="seta2 .png" id="ante" onclick="ante()"></img>
+					<img src="seta1 .png" id="prox" onclick="prox()"></img>
+					<h3 id = 'mesAno'></h3>
+					
+				</tr>
+			</div>
+
+
+	<table id ="tabela" cellpadding="0" cellspacing="0">
+							<tr>
+								<div >
+								<td class="diaSemana">Domingo</td>
+								<td class="diaSemana" >Segunda</td>
+								<td class="diaSemana" >Terça</td>
+								<td class="diaSemana" >Quarta</td>
+								<td class="diaSemana" >Quinta</td>
+								<td class="diaSemana" >Sexta</td>
+								<td class="diaSemana" >Sabado</td>
+								</div>
+							</tr>
+									<tr >
+										<td class="diasNome" id = '0' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '1' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '2' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '3' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '4' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '5' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '6' onclick="salvar(this)"></td>
+									</tr>
+							
+									<tr>
+										<td class="diasNome" id = '7'  onclick="salvar(this)"></td>
+										<td class="diasNome" id = '8'  onclick="salvar(this)"></td>
+										<td class="diasNome" id = '9'  onclick="salvar(this)"></td>
+										<td class="diasNome" id = '10' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '11' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '12' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '13' onclick="salvar(this)"></td>
+									</tr>
+									<tr>
+										<td class="diasNome" id = '14' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '15' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '16' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '17' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '18' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '19' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '20' onclick="salvar(this)"></td>
+									</tr>
+									<tr>
+										<td class="diasNome" id = '21' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '22' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '23' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '24' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '25' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '26' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '27' onclick="salvar(this)"></td>
+									</tr>
+									<tr>
+										<td class="diasNome" id = '28' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '29' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '30' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '31' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '32' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '33' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '34' onclick="salvar(this)"></td>
+									</tr>
+									<tr>
+										<td class="diasNome" id = '35' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '36' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '37' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '38' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '39' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '40' onclick="salvar(this)"></td>
+										<td class="diasNome" id = '41' onclick="salvar(this)"></td>
+									</tr>
+							
+		
+	</table>
+		<div class ="impre">
+			<div id="impr" onclick="imp()">Imprimir</div>
+			
+			
+				
+			</div> 
+		</div>
+		<div id='quadrado' ></div>
+</body>
+</html>

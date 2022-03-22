@@ -1,0 +1,97 @@
+.body{
+    text-align: center;
+    background:#f2f2f2;
+}
+
+#tabela{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 4px 4px;
+    position:absolute; 
+    Left:20%; 
+    top:150px;
+    background: #f2f2f2;
+    text-align: center;
+    border:0; 
+}
+
+.diasNome{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100px;
+    padding: 4px 10px;
+    border: none;
+    text-align: center;
+}
+
+.impre{
+    position:absolute; 
+    Left:20%; 
+    top:350px;
+   
+}
+
+#impr{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width :848px; 
+    height:35px;
+    font-size: 30px;
+	background-color:#e62e00;
+}
+
+#ante{
+    position:absolute; 
+    left:0%; 
+    top:150%;
+    width :50px; 
+	height:50px;
+}
+
+#prox{
+    position:absolute; 
+    right:0%; 
+    top:150%;
+    width :50px; 
+	height:50px;
+}
+
+#mesAno{
+    
+    width :848px; 
+	height:150px;
+    background-color:#e62e00;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:60px;
+}
+
+.cabecalho{
+     
+    position:absolute; 
+    Left:20%; 
+    width :848px; 
+	height:50px;
+
+}
+#quadrado{
+        
+    position:absolute; 
+    right:5%; 
+    top:8.9%;
+    width :300px; 
+	height:317px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #ffcccc;
+    
+}
+
+.diaSemana{
+
+
+    background-color: #e62e00;
+    width: 100px;
+    padding: 4px 10px;
+    border:2px
+
+
+}
+
